@@ -1,6 +1,6 @@
 <?php
 
-require_once "SingletonPattern/Preference.php";
+require_once "Preference.php";
 
 echo "Begin Singleton.\n";
 $pref1 = Preference::createInstance();
